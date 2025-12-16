@@ -181,8 +181,8 @@
           \resumeItemListStart
             \resumeItem{Developed a Bencode Decoder and Encoder to enable peer communication in network sessions}
             \resumeItem{Implemented a Peer manager responsible for choking, unchoking and managing individual peer connections}
-            \resumeItem{Implemented a serving mechanism responsible for sending data pieces to unchoked connected peers}
-            \resumeItem{Implemented a concurrent pipeline responsible for feeding received data pieces, hashing them and sending them on to a file managing mechanism that stores said pieces to the designated location on the storage device of the device the application is being ran on}
+            \resumeItem{Implemented a serving mechanism responsible for sending data pieces to unchoked peers that request them}
+            \resumeItem{Implemented a concurrent pipeline to ingest incoming data chunks, hash them for accuracy, and forward them\\ to a file management component for storage at designated locations on the host device}
             \resumeItem{Implemented a simple multithreading API that allows multiple instances of the BitTorrent protocol to be ran simultaneously}
           \resumeItemListEnd
       \resumeProjectHeading
