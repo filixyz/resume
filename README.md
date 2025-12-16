@@ -1,5 +1,3 @@
 My resume.
 
-```bash
-pdflatex file.tex
-```
+![My resume](image.png)
