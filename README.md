@@ -1,3 +1,3 @@
 My resume.
 
-![My resume](image.png)
+![My resume](image.jpg)
